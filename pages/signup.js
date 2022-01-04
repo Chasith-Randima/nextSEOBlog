@@ -6,7 +6,6 @@ import { isAuth } from "../actions/auth";
 import Router from "next/router";
 
 const Signup = () => {
-
   return (
     <Layout>
       <h2 className="text-center pt-4 pb-4">Signup page</h2>
