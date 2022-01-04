@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import { withRouter } from "next/router";
 import { resetPassword } from "../../../../actions/auth";

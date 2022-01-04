@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { withRouter } from "next/router";
-import { resetPassword, signup } from "../../../../actions/auth";
+import { signup } from "../../../../actions/auth";
 import Layout from "../../../../components/Layout";
 import jwt from "jsonwebtoken";
 import { Button } from "reactstrap";

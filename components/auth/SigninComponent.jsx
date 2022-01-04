@@ -2,7 +2,7 @@ import Link from "next/link";
 import Router from "next/router";
 import { useState, useEffect } from "react";
 import { signin, authenticate, isAuth } from "../../actions/auth";
-import LoginGoogle from "./loginGoogle";
+// import LoginGoogle from "./loginGoogle";
 
 const SigninComponent = () => {
   const [values, setValues] = useState({
