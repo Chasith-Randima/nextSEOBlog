@@ -3,7 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 // import { signletag } from "../../actions/category";
 import { signleTag } from "../../actions/tag";
-import { API, DOMAIN, APP_NAME, FB_APP_ID } from "../../config";
+import { DOMAIN, APP_NAME, FB_APP_ID } from "../../config";
 
 import Card from "../../components/blog/Card";
 
