@@ -7,6 +7,7 @@ import moment from "moment";
 import ContactForm from "../../components/form/ContactForm";
 
 const UserProfile = ({ user, blogs, query }) => {
+  // for SEO
   const head = () => (
     <Head>
       <title>
