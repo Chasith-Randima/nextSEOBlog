@@ -30,7 +30,7 @@ const ProfileUpdate = () => {
     error,
     success,
     loading,
-    photo,
+
     userData,
   } = values;
 
