@@ -37,7 +37,7 @@ const BlogRead = ({ username }) => {
   };
 
   const deleteConfirm = (slug) => {
-    let answer = window.confirm("Are you sure you want to delete your blog?");
+    let answer = window.confirm("Are you sure you want to delete your blog ?");
 
     if (answer) {
       deleteBlog(slug);
