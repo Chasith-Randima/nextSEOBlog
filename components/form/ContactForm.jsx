@@ -17,7 +17,7 @@ const ContactForm = ({ authorEmail }) => {
 
   const clickSubmit = (e) => {
     e.preventDefault();
-    setValues({ ...values, buttonText: "Sednding..." });
+    setValues({ ...values, buttonText: "Sednding.." });
     emailContactForm({ authorEmail, name, email, message }).then((data) => {
       if (data.error) {
         setValues({ ...values, error: data.error });
