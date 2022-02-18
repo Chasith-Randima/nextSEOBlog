@@ -28,7 +28,7 @@ export const create = async (category, token) => {
 
 export const getCategories = async () => {
   let url = `${API}/categories`;
-  //   return await fetch(`${API}/signup`, {
+
   return fetch(url, {
     method: "GET",
   })
