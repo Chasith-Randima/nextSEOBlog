@@ -3,6 +3,7 @@ import { signup, isAuth } from "../../actions/auth";
 import Router from "next/router";
 import Link from "next/link";
 
+// signup compoenent
 const SignupComponent = () => {
   const [values, setValues] = useState({
     name: "Randima",
