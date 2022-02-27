@@ -87,7 +87,7 @@ const SigninComponent = () => {
       {showError()}
       {showLoading()}
       {showMessage()}
-      {/* login using google option */}
+      {/* login using google option  */}
       {/* <LoginGoogle /> */}
       {showForm && signinForm()}
       <br />
