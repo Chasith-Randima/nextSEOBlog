@@ -95,8 +95,6 @@ const BlogUpdate = ({ router }) => {
   const handleBody = (e) => {
     setBody(e);
     formData.set("body", e);
-
-    // console.log(formData.get("body"));
   };
   const editBlog = async (e) => {
     e.preventDefault();
