@@ -1,7 +1,6 @@
 import Head from "next/head";
 
 import Layout from "../../components/Layout";
-// import { signletag } from "../../actions/category";
 import { signleTag } from "../../actions/tag";
 import { DOMAIN, APP_NAME, FB_APP_ID } from "../../config";
 
