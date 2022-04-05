@@ -41,7 +41,7 @@ const Category = () => {
   };
 
   const deleteConfirm = (slug) => {
-    let answer = window.confirm("Are you sure want to delete this category?");
+    let answer = window.confirm("Are you sure want to delete this category ?");
 
     if (answer) {
       deleteCategory(slug);
