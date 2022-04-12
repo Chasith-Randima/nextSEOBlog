@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Layout from "../../../components/Layout";
 import Private from "../../../components/auth/Private";
 import BlogRead from "../../../components/crud/BlogRead";
