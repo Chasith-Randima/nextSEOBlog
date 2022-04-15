@@ -1,4 +1,4 @@
-// quilljs settings
+// quilljs setting
 
 export const QuillModules = {
   toolbar: [
