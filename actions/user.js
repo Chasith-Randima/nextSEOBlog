@@ -2,7 +2,7 @@ import fetch from "isomorphic-fetch";
 import { API } from "../config";
 import { handleResponse } from "./auth";
 
-// user action functions
+// user action function
 
 export const userPublicProfile = (username) => {
   return fetch(`${API}/user/${username}`, {
