@@ -6,10 +6,7 @@ export const create = async (tag, token) => {
   let url = `${API}/tag`;
   return fetch(url, {
     method: "POST",
-    // headers: {
-    //   Accept: "application/json",
-    //   "Content-Type": "application/json",
-    // },
+
     headers: {
       // Check what headers the API needs. A couple of usuals right below
       Accept: "application/json",
