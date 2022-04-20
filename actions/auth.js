@@ -10,7 +10,7 @@ export const handleResponse = (response) => {
       Router.replace({
         pathname: "/signin",
         query: {
-          message: "Your session is expired.:Please signin .",
+          message: "Your session is expired.:Please signin.",
         },
       });
     });
