@@ -127,7 +127,6 @@ export const updateBlog = (blog, token, slug) => {
 
 export const listSearch = (params) => {
   console.log("search params front", params);
-  // let query = queryString.parse(params);
   let query = queryString.stringify(params);
   console.log("search params  after front", query);
   return fetch(`${API}/blogs/search?${query}`, {
