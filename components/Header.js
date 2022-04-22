@@ -4,7 +4,6 @@ import { signout, isAuth } from "../actions/auth";
 import Router from "next/router";
 import {
   Navbar,
-  NavbarBrand,
   NavbarToggler,
   Collapse,
   Nav,
