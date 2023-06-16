@@ -3,7 +3,7 @@ import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 
 export const API = publicRuntimeConfig.PRODUCTION
-  ? "https://infinite-savannah-30047.herokuapp.com/api"
+  ? "https://seo-blog-backend.onrender.com/api"
   : "http://127.0.0.1:8000/api";
 // export const API = publicRuntimeConfig.PRODUCTION
 //   ? "https://seoblog.com"
