@@ -4,7 +4,6 @@ import { handleResponse } from "./auth";
 
 export const create = async (tag, token) => {
   let url = `${API}/tag`;
-  //   return await fetch(`${API}/signup`, {
   return fetch(url, {
     method: "POST",
     // headers: {

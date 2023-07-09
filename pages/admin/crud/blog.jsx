@@ -15,7 +15,6 @@ const Blog = () => {
             <div className="col-md-12">
               <BlogCreate />
             </div>
-            {/* <div className="col-md-6"><Tag /></div> */}
           </div>
         </div>
       </Admin>

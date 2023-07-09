@@ -1,9 +1,8 @@
 import Link from "next/link";
 import renderHTML from "react-render-html";
-import moment from "moment";
+
 import { API } from "../../config";
 import { useState } from "react";
-import blog from "../../../backend/models/blog";
 
 const Card = ({ blog }) => {
   console.log(blog.postedBy);

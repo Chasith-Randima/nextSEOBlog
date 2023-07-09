@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { withRouter } from "next/router";
-import { resetPassword, signup } from "../../../../actions/auth";
+import { signup } from "../../../../actions/auth";
 import Layout from "../../../../components/Layout";
 import jwt from "jsonwebtoken";
 import { Button } from "reactstrap";
@@ -56,7 +56,7 @@ const ActivateAccount = ({ router }) => {
         <h3 className="pb-4">Hey {name} Ready to activate your account:=?</h3>
         {showLoading()}
         {error && error}
-        {success && "You have successfully activated your account"}
+        {success && "You have successfully activated your account."}
         {showButton && (
           <Button className="btn btn-outline-primary" onClick={clickSubmit}>
             Activate your Account

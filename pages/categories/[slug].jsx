@@ -1,11 +1,9 @@
 import Head from "next/head";
-import Link from "next/link";
+
 import Layout from "../../components/Layout";
 import { signleCategory } from "../../actions/category";
 import { API, DOMAIN, APP_NAME, FB_APP_ID } from "../../config";
-import { useEffect, useState } from "react";
-import moment from "moment";
-import renderHTML from "react-render-html";
+
 import Card from "../../components/blog/Card";
 
 const Category = ({ category, blogs, query }) => {

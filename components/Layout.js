@@ -5,7 +5,10 @@ const Layout = ({ children }) => {
     <>
       <Header />
       {children}
+      <div>
+
       <p>Footer</p>
+      </div>
     </>
   );
 };

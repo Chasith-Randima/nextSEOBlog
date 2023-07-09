@@ -28,7 +28,7 @@ export const create = async (category, token) => {
 
 export const getCategories = async () => {
   let url = `${API}/categories`;
-  //   return await fetch(`${API}/signup`, {
+
   return fetch(url, {
     method: "GET",
   })
@@ -40,7 +40,6 @@ export const getCategories = async () => {
 };
 export const signleCategory = async (slug) => {
   let url = `${API}/category/${slug}`;
-  //   return await fetch(`${API}/signup`, {
   return fetch(url, {
     method: "GET",
   })

@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import Router from "next/router";
-import { withRouter } from "next/router";
+
 import { getCookie, isAuth } from "../../actions/auth";
-import { getCategories } from "../../actions/category";
+
 import { list, removeBlog } from "../../actions/blog";
 import moment from "moment";
 
@@ -38,7 +37,7 @@ const BlogRead = ({ username }) => {
   };
 
   const deleteConfirm = (slug) => {
-    let answer = window.confirm("Are you sure you want to delete your blog?");
+    let answer = window.confirm("Are you sure you want to delete your blog ?");
 
     if (answer) {
       deleteBlog(slug);
